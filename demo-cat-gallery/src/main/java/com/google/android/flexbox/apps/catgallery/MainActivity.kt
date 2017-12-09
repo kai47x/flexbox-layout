@@ -38,8 +38,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val toolbar: Toolbar = findViewById(R.id.toolbar)
-        setSupportActionBar(toolbar)
+        val toolbar: Toolbar = this.findViewById(R.id.toolbar)
+        this.setSupportActionBar(toolbar)
 
         val flexboxLayoutManager = FlexboxLayoutManager(this).apply {
             flexWrap = FlexWrap.WRAP
